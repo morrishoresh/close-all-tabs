@@ -17,7 +17,11 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "close-all-tabs@example.local"
+      "id": "close-all-tabs@example.local",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }
+
