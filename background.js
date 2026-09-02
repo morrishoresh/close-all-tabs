@@ -1,4 +1,4 @@
-console.log("Close All Tabs: background script loaded (v3)");
+console.log("Close All Tabs: background script loaded");
 
 browser.action.onClicked.addListener(async () => {
   console.log("Close All Tabs: button clicked");
