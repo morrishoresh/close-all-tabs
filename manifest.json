@@ -1,16 +1,25 @@
 {
   "manifest_version": 3,
   "name": "Close All Tabs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Closes all open tabs and leaves a single new empty tab.",
   "permissions": ["tabs", "browserSettings"],
   "action": {
-    "default_icon": "icons/icon.svg",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "96": "icons/icon96.png",
+      "128": "icons/icon128.png"
+    },
     "default_title": "Close All Tabs"
   },
   "icons": {
-    "48": "icons/icon.svg",
-    "96": "icons/icon.svg"
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png",
+    "128": "icons/icon128.png"
   },
   "background": {
     "scripts": ["background.js"]
