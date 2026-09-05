@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Close All Tabs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Closes all open tabs and leaves a single new empty tab.",
   "permissions": ["tabs", "browserSettings"],
   "action": {
